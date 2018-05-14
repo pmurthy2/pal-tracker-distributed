@@ -45,7 +45,7 @@ public class AllocationController {
             .map(this::present)
             .collect(toList());
     }
-
+ 
 
     private boolean projectIsActive(long projectId) {
         ProjectInfo project = client.getProject(projectId);
